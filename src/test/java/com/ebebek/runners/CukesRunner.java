@@ -16,7 +16,7 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/features",
         glue = "com/ebebek/step_definitions",
         dryRun = false,
-        tags = "@task",
+        tags = "@task2",
         publish = true
 
 

@@ -19,8 +19,8 @@ Feature: Sepet sayfasındaki muhtemel işlemleri kontol
 
   Scenario: Kullanıcı sepetteki ürünü artırabilmeli
     When Kullanıcı + işaretine tıklar
-    Then Ürün sayısı üçe ulaştığında 'Hoşgeldin ürününün maksimum satış adedine ulaştınız. Bu nedenle ürünün sepetinizdeki adedi 2 e düşürüldü.' mesajı ekranda belirir
-    Then Ürün sayısı ikiye düşürülür
+    Then Ürün sayısı maksimum sayıya ulaştığında 'Hoşgeldin ürününün maksimum satış adedine ulaştınız. Bu nedenle ürünün sepetinizdeki adedi ... ' e düşürüldü.' mesajı ekranda belirir
+    Then Ürün sayısı maksimum sayıya düşürülür
 
 
   Scenario: Kullanıcı sepetteki ürünü artırabilmeli
